@@ -1,58 +1,23 @@
-📊 Loan Approval Prediction using Machine Learning
+# Loan Approval Prediction using Machine Learning
 
-This project applies machine learning classification models to predict loan approval outcomes based on customer and financial data. It demonstrates the complete pipeline of data preprocessing, model building, and evaluation.
+This repository contains a machine learning project that predicts loan approval outcomes based on customer and financial information. The notebook demonstrates preprocessing, model training, and evaluation.
 
-📂 Dataset
+## Task
+1. *Loan Approval Prediction*  
+   - *Type:* Classification  
+   - *Models:* Logistic Regression, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), Decision Tree, Random Forest  
+   - *Goal:* Predict loan approval status using applicant details and financial data.  
 
-Source: Comp loan.csv
+## Workflow
+- *Data Preprocessing:* Handling missing values, removing irrelevant columns, encoding categorical features, scaling, and balancing data using SMOTE.  
+- *Modeling:* Training and comparing multiple classifiers.  
+- *Evaluation:* Accuracy, Confusion Matrix, ROC-AUC, Precision, Recall, F1-score.  
 
-Contains customer and financial details used to determine loan approval.
+## Tech Stack
+- *Language:* Python  
+- *Libraries:* Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, imbalanced-learn  
 
- Workflow
- Data Preprocessing
-
-Removed irrelevant columns (id, Unnamed: 0)
-
-Handled missing values
-
-Label Encoding & Feature Scaling
-
-Balanced data using SMOTE
-
- Modeling
-
-Implemented and compared multiple classification algorithms:
-
-Logistic Regression
-
-K-Nearest Neighbors (KNN)
-
-Support Vector Machine (SVM)
-
-Decision Tree
-
-Random Forest
-
-📈 Evaluation Metrics
-
-Accuracy Score
-
-Confusion Matrix
-
-ROC-AUC & ROC Curve
-
-Precision, Recall, F1-score
-
-✅ Results
-
-Models were compared based on accuracy and ROC-AUC.
-
-Random Forest and SVM provided the best performance on this dataset.
-
-🚀 Future Work
-
-Hyperparameter tuning using GridSearchCV
-
-Advanced feature engineering for better accuracy
-
-Deployment as a web application (Flask/Streamlit)
+# Open Jupyter Notebook
+```bash
+jupyter notebook applai.ipynb
+```  
