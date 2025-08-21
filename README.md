@@ -1,4 +1,4 @@
-📊 Loan Approval Prediction using Machine Learning
+#📊 Loan Approval Prediction using Machine Learning
 
 This project applies machine learning classification models to predict loan approval outcomes based on customer and financial data. It demonstrates the complete pipeline of data preprocessing, model building, and evaluation.
 
